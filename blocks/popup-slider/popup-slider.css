@@ -1,0 +1,10 @@
+.popup-slider {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 100%;
+    margin: auto;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}

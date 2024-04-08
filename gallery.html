@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Климовские боксеры</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="./images/logo.png" class="header__logo" alt="логотип">
+            <nav class="header__links">
+                <a href="./index.html" class="header__link">На главную</a>
+                <a href="./contacts.html" class="header__link">Конттакты</a>
+            </nav>
+            <img src="./images/Burger.svg" class="header__burger" alt="бургер-меню">
+        </header>
+        <main class="content">
+            <section class="gallerys">
+                <ul class="gallery">
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto11.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto12.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto13.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto14.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto21.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto22.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto23.jpg" alt="photo">
+                    </li>
+                    <li class="gallerey__cards">
+                        <img class="gallery__album" src="./images/foto24.jpg" alt="photo">
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__author">&copy;2023. Андрей Суховьев</p>
+        </footer>
+        <div class="popup popup-menu">
+            <div class="popup-menu__container">
+                <button class="popup-menu__close" type="button" aria-label="закрыть меню"></button>
+                <nav class="popup-menu__links">
+                    <a href="./index.html" class="header__link">На главную</a>
+                    <a href="./contacts.html" class="header__link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="popup popup-slider">
+            <button class="popup-slider__close" id="close1" type="button" aria-label="закрыть меню"></button>
+            <figure class="popup-slider__container">
+                <button class="popup-slider__previous">&#10094;</button>
+                <button class="popup-slider__next">&#10095;</button>
+            </figure>
+        </div>
+
+        <script src="./scripts/script.js "></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Климовские боксеры</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="./images/logo.png" class="header__logo" alt="логотип">
+            <nav class="header__links">
+                <a href="./gallery.html" class="header__link">Фтогалерея</a>
+                <a href="./contacts.html" class="header__link">Контакты</a>
+            </nav>
+            <img src="./images/Burger.svg" class="header__burger" alt="бургер-меню">
+        </header>
+        <main class="content">
+
+            <section class="general">
+                <h1 class="general__title">Школа бокса</h1>
+                <p class="general__subtitle">"Климовские боксеры"</p>
+                <img src="./images/main.jpg" class="general__photo" alt="основная фотография">
+            </section>
+
+            <section class="about">
+                <h2 class="about__title">О нас</h2>
+                <div class="about__coach">
+                    <img src="./images/coach.jpg" class="about__coach-photo" alt="фотография тренера">
+                    <div class="about__pharagraph">
+                        <h3 class="about__coach-title">Тренер</h3>
+                        <p class="about__coach-pharagraph">Сергей Михайлович Кравцов...</p>
+                    </div>
+                </div>
+                <div class="about__hall">
+                    <div class="about__pharagraph">
+                        <h3 class="about__coach-title">Наш зал</h3>
+                        <p class="about__coach-pharagraph">Наш зал расположен...</p>
+                    </div>
+                    <img src="./images/coach.jpg" class="about__coach-photo" alt="фотография тренера">
+                </div>
+
+                <h3 class="about__title-board">Рассписание занятий</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>день недели</th>
+                            <th>Младшая группа</th>
+                            <th>Старшая группа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>среда</td>
+                            <td>17:00 - 19:00</td>
+                            <td>19:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                            <td>четверг</td>
+                            <td>17:00 - 19:00</td>
+                            <td>19:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                            <td>пятница</td>
+                            <td>17:00 - 19:00</td>
+                            <td>19:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                            <td>суббота</td>
+                            <td>10:00 - 12:00</td>
+                            <td>10:00 - 12:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__author">&copy;2023. Андрей Суховьев</p>
+        </footer>
+        <div class="popup popup-menu">
+            <div class="popup-menu__container">
+                <button class="popup-menu__close" type="button" aria-label="закрыть меню"></button>
+                <nav class="popup-menu__links">
+                    <a href="./gallery.html" class="header__link">Фтогалерея</a>
+                    <a href="./contacts.html" class="header__link">Конттакты</a>
+                </nav>
+            </div>
+        </div>
+        <script src="./scripts/script1.js"></script>
+</body>
+
+</html>

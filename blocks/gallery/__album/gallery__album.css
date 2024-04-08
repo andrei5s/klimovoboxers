@@ -1,0 +1,18 @@
+.gallery__album {
+    width: 282px;
+    height: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery__album {
+        width: 100%;
+        ;
+    }
+}

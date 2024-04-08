@@ -1,0 +1,11 @@
+.header__links {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__links {
+        display: none;
+    }
+}

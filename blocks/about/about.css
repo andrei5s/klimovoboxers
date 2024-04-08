@@ -1,0 +1,12 @@
+.about {
+    max-width: 1200px;
+    margin: auto;
+    width: 88%;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 460px) {
+    .about {
+        width: 100%;
+    }
+}

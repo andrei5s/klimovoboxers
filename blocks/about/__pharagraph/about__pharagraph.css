@@ -1,0 +1,16 @@
+.about__pharagraph {
+    width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+    .about__pharagraph {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .about__pharagraph {
+        margin: auto;
+        width: 60%;
+    }
+}

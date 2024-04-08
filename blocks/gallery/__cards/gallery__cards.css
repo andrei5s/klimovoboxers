@@ -1,0 +1,10 @@
+.gallerey__cards {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.gallerey__cards:hover {
+    opacity: .6;
+}

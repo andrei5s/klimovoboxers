@@ -1,0 +1,10 @@
+.gallery__title {
+    font-size: 32px;
+    line-height: 22px;
+    font-weight: normal;
+    background: linear-gradient( green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+}

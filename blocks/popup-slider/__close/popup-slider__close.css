@@ -1,0 +1,12 @@
+.popup-slider__close {
+    margin: 10px 20px 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: inherit;
+    background-image: url(../../../images/close-icon1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}

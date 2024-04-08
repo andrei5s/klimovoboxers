@@ -1,0 +1,7 @@
+.popup-slider__next {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}

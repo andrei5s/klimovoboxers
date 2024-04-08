@@ -1,0 +1,19 @@
+.about__coach-pharagraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    margin: 0 0 26px 0;
+    padding: 0;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+    .about__coach-pharagraph {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,21 @@
+.about__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    box-sizing: border-box;
+    background: linear-gradient( green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+.about__link:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 460px) {
+    .about__link {
+        margin-left: 5%;
+    }
+}

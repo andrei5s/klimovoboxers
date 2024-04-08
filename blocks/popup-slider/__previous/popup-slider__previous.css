@@ -1,0 +1,7 @@
+.popup-slider__previous {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}

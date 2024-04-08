@@ -1,0 +1,10 @@
+.about__coach-photo {
+    width: 40%;
+}
+
+@media screen and (max-width: 460px) {
+    .about__coach-photo {
+        width: 60%;
+        margin: auto;
+    }
+}

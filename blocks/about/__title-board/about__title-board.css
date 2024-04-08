@@ -1,0 +1,37 @@
+.about__title-board {
+    font-family: "Roboto Slab", serif;
+    width: 52%;
+    text-align: center;
+    margin: 25px auto 0 auto;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 45px;
+    background: linear-gradient( green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+@media screen and (max-width: 1063px) {
+    .about__title-board {
+        width: 55%;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about__title-board {
+        width: 60%;
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .about__title-board {
+        width: 60%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+}

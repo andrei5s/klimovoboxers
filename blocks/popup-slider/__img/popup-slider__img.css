@@ -1,0 +1,7 @@
+    .popup-slider__img {
+        object-fit: contain;
+        object-position: center;
+        max-width: 75vw;
+        max-height: 75vh;
+        margin-top: 30px;
+    }

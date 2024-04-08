@@ -1,0 +1,23 @@
+.general__subtitle {
+    font-family: "Roboto Slab", serif;
+    width: 460px;
+    margin: 32px auto 32px auto;
+    padding: 10px;
+    font-size: 35px;
+    line-height: 22px;
+    font-weight: normal;
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient( green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .general__subtitle {
+        width: 260px;
+        font-size: 16px;
+        line-height: 15px;
+        margin: 15px auto 15px auto;
+    }
+}
