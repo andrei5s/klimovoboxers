@@ -1,31 +1,33 @@
-    .general__title {
-        font-family: "Inter", Arial, Helvetica, sans-serif;
-        margin: 55px auto 0 auto;
-        width: 500px;
-        font-size: 72px;
-        line-height: 76px;
-        font-weight: 900;
-        text-align: center;
-        box-sizing: border-box;
-        color: #ffffff;
-        /*background: linear-gradient( green, yellow, orange, red);*/
-        background-color: rgb(234, 255, 0);
-        background-clip: text;
-        color: transparent;
-    }
-    
-    @media screen and (max-width: 767px) {
         .general__title {
-            width: 288px;
-            margin: 33px auto 0 auto;
-            font-size: 32px;
-            line-height: 35px;
+            font-family: "Inter", Arial, Helvetica, sans-serif;
+            margin: 55px auto 0 auto;
+            width: 500px;
+            font-size: 72px;
+            line-height: 76px;
+            font-weight: 900;
+            text-align: center;
+            box-sizing: border-box;
+            color: #ffffff;
+            /* color: rgb(234, 255, 0);
+            background: linear-gradient( green, yellow, orange, red);
+            background-color: rgb(234, 255, 0);
+            background-clip: text;
+            color: transparent;
+            */
         }
-    }
-    
-    @media screen and (max-width: 400px) {
-        .general__title {
-            font-size: 30px;
-            line-height: 32px;
+        
+        @media screen and (max-width: 767px) {
+            .general__title {
+                width: 288px;
+                margin: 33px auto 0 auto;
+                font-size: 32px;
+                line-height: 35px;
+            }
         }
-    }
+        
+        @media screen and (max-width: 400px) {
+            .general__title {
+                font-size: 30px;
+                line-height: 32px;
+            }
+        }
