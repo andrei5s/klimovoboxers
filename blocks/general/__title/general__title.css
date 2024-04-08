@@ -1,5 +1,5 @@
     .general__title {
-        font-family: "Roboto Slab", serif;
+        font-family: "Inter", serif;
         margin: 55px auto 0 auto;
         width: 500px;
         font-size: 72px;
@@ -8,6 +8,7 @@
         text-align: center;
         box-sizing: border-box;
         /*background: linear-gradient( green, yellow, orange, red);*/
+        background-color: rgb(234, 255, 0);
         background-clip: text;
         color: transparent;
     }
