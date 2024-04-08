@@ -4,9 +4,7 @@
     font-size: 18px;
     line-height: 29px;
     box-sizing: border-box;
-    background: linear-gradient( green, yellow, orange, red);
-    background-clip: text;
-    color: transparent;
+    color: rgb(255, 225, 0);
     text-decoration: none;
 }
 

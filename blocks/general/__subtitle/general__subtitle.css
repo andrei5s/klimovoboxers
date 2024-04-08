@@ -8,9 +8,7 @@
     font-weight: normal;
     text-align: center;
     box-sizing: border-box;
-    background: linear-gradient( green, yellow, orange, red);
-    background-clip: text;
-    color: transparent;
+    color: rgb(255, 225, 0);
 }
 
 @media screen and (max-width: 767px) {

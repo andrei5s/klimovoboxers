@@ -8,9 +8,7 @@
     font-weight: normal;
     font-size: 52px;
     line-height: 45px;
-    background: linear-gradient( green, yellow, orange, red);
-    background-clip: text;
-    color: transparent;
+    color: rgb(255, 225, 0);
 }
 
 @media screen and (max-width: 1063px) {
