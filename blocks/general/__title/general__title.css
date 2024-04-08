@@ -18,10 +18,3 @@
                 line-height: 35px;
             }
         }
-        
-        @media screen and (max-width: 400px) {
-            .general__title {
-                font-size: 30px;
-                line-height: 32px;
-            }
-        }
