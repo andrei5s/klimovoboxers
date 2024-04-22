@@ -1,7 +1,8 @@
-   .popup-slider__container {
-       display: flex;
-       justify-content: space-evenly;
-       height: 100%;
-       color: white;
-       margin: 0;
-   }
+.popup-slider__container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
