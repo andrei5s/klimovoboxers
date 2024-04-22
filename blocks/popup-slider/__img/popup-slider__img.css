@@ -1,7 +1,10 @@
     .popup-slider__img {
+        display: flex;
+        text-align: center;
+        justify-content: center;
         object-fit: contain;
         object-position: center;
         max-width: 75vw;
         max-height: 75vh;
-        margin-top: 30px;
+        margin-top: 50px;
     }
