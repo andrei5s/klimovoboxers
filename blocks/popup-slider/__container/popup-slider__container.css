@@ -1,13 +1,13 @@
-    .popup-slider__container {
-        display: flex;
-        justify-content: space-evenly;
-        height: 100%;
-        color: white;
-        margin-top: 60px;
-    }
-    
-    @media screen and (max-width: 580px) {
-        .popup-slider__container {
-            margin-top: 80px;
-        }
-    }
+            .popup-slider__container {
+                display: flex;
+                justify-content: space-evenly;
+                height: 100%;
+                color: white;
+                margin-top: 60px;
+            }
+            
+            @media screen and (max-width: 580px) {
+                .popup-slider__container {
+                    margin-top: 75px;
+                }
+            }
