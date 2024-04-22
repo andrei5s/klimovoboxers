@@ -46,7 +46,7 @@ cards.forEach((item, index) => {
 function showSlides() {
     pictureFull = photo[slideIndex].cloneNode();
     pictureFull.style.width = '80vw';
-    pictureFull.style.height = '80vh';
+    pictureFull.style.height = '75vh';
     slides.append(pictureFull);
     openAlbum();
 }
@@ -64,7 +64,7 @@ const chengeSlider = (dir) => {
 
     newPictureFull = photo[slideIndex].cloneNode();
     newPictureFull.style.width = '80vw';
-    newPictureFull.style.height = '80vh';
+    newPictureFull.style.height = '76vh';
 
     pictureFull.replaceWith(newPictureFull);
     pictureFull = newPictureFull;
